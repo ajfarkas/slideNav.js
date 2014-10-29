@@ -12,4 +12,8 @@ The navigation is hidden until the user scrolls past the bottom of the `header`,
 And vice-versa.<br/>
 <br/>
 I recommend adding some CSS in order to prevent a flash of the `nav` on pageload:<br/>
-`nav{ visibility: hidden; }`
+````
+    nav{
+      visibility: hidden; 
+      position: fixed; }
+````
